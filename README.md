@@ -37,7 +37,7 @@
         rev: 1.0.0 # Replace with the latest release tag
         hooks:
         -   id: docx2md
-            verbose: tru
+            verbose: true
     ```
 
 3. **Run pre-commit install to set up the git hook scripts**
