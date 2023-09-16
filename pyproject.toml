@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "docx2md"
+version = "0.1.0"
+description = ""
+authors = ["Rafał Łazicki <rafal.lazicki99@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pypandoc = "^1.11"
+gitpython = "^3.1.36"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,7 @@
+- id: docx2md
+  name: Convert DOCX to Markdown
+  entry: ./docx2md.py
+  language: python
+  files: '\.docx$'
+  pass_filenames: false
+  additional_dependencies: ['pypandoc', 'GitPython']
