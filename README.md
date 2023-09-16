@@ -52,7 +52,7 @@
 Upon executing `git commit`, the pre-commit hook:
 
 1. Identifies DOCX files that are staged for commit.
-2. Converts each DOCX file to a Markdown file.
+2. Converts each DOCX file to a Markdown file using html formatting.
 3. Adds the Markdown files to the commit automatically.
 
 ---
