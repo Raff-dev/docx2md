@@ -33,10 +33,11 @@
 2. **Create a `.pre-commit-config.yaml` file in your repository with the following content**
     ```yaml
     repos:
-    - repo: https://github.com/your-username/your-hook-repo
-      rev: master
-      hooks:
-      - id: docx-to-md
+    -   repo: https://github.com/Raff-dev/docx2md
+        rev: 1.0.0 # Replace with the latest release tag
+        hooks:
+        -   id: docx2md
+            verbose: tru
     ```
 
 3. **Run pre-commit install to set up the git hook scripts**
