@@ -12,13 +12,13 @@ def main():
         print("No files to convert.")
         return
 
-    print("Converting files to .md and adding to commit.")
+    print("Converting files to .md and adding to commit:")
     for file in changed_files:
         if file.endswith(".docx"):
             md_file = file.replace(".docx", ".md")
             pypandoc.convert_file(file, "html", outputfile=md_file)
             index.add([md_file])
-            print(f"{file} - {md_file}")
+            print(f"\t- {file} -> {md_file}")
 
 
 if __name__ == "__main__":

@@ -5,3 +5,4 @@ repos:
         name: Convert DOCX to Markdown
         entry: docx2md
         language: python
+        verbose: true
